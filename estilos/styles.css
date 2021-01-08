@@ -1,0 +1,41 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+html,body{
+    margin: 0;
+    height: 100%;
+}
+
+/*Barra de navegacion*/
+.topnav{
+    background-color: #ef5350;
+}
+
+/*Logo*/
+.topnav a{
+    padding: 16px;
+}
+
+.content{
+    background-color: #ddd;
+    height: 90%;
+    padding: 16px;
+}
+
+.content h2{
+    margin-top: 0px;
+}
+
+.footer{
+    height: 10%;
+    background-color: #333;
+    color: white;
+    text-align: right;
+    padding: 12px;
+}
+
+.footer p{
+    margin: 0;
+}
