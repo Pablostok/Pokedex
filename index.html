@@ -5,6 +5,7 @@
         <title>Pokedex</title>
         <link rel="shortcut icon" href="./assets/img/logo-pokeball.png">
         <link rel="stylesheet" href="./estilos/styles.css">
+        <meta charset="UTF-8">
     </head>
 
     <body>
@@ -27,7 +28,7 @@
                 <form>
                     <label for = "">ID de Pokemon</label>
                     <input type = "number" id = "inputPokemonID">
-                    <input type = "button" value = "Buscar Pokemon" onclick = "alert('Buscando Pokemon')">
+                    <input type = "button" value = "Buscar Pokemon" onclick = "findPokemon()">
                 </form>
             </div>
         </div>
@@ -35,6 +36,8 @@
         <div class = "footer">
             <p>Pokedex 2021</p>
         </div>
+
+        <script src = "./scripts/functions.js"></script>
 
     </body>
 
