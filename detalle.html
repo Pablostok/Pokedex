@@ -4,10 +4,10 @@
     <head>
         <title>Pokedex</title>
         <link rel="shortcut icon" href="./assets/img/logo-pokeball.png">
-        <link rel="stylesheet" href="./estilos/estilos.css">
+        <link rel="stylesheet" href="./estilos/styles.css">
     </head>
 
-    <body>
+    <body onload = "cargarPokemonData()">
         <div class="topnav">
             <a href="index.html">
                 <img src="./assets/img/logo-pokeball.png" alt="Logo pokeball">
@@ -17,8 +17,14 @@
         <div class="content">
             
             <a href="index.html"><h6>Volver al inicio</h6></a>
+            <h2 id = "pokemonNombre">Detalle del pokemon: </h2>
+            <img src="" id = "pokemonImagen">
         
         </div>
     
+        <div class = "footer">
+            <p>Pokedex 2021</p>
+        </div>
+        <script src = './scripts/functions.js'></script>
     </body>
 </html>
